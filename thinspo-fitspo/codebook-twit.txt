@@ -1,0 +1,612 @@
+twit2 
+
+ 76  Variables      1035  Observations
+-------------------------------------------------------------------------------------------------------------
+Tweetidnumber : Tweet id number 
+       n  missing distinct 
+    1035        0     1035 
+
+lowest : 12    24    83    97    102  , highest: 70506 70583 70890 70913 70923
+-------------------------------------------------------------------------------------------------------------
+numimagesboth : Specify how many image(s)/video(s) include a person who appears to be...-Both-Number of image(s)/video(s) 
+       n  missing distinct     Info      Sum     Mean      Gmd 
+     545      490        2    0.038        7  0.01284   0.0254 
+
+-------------------------------------------------------------------------------------------------------------
+tweetertype : The tweeter appears to be a(n)... 
+       n  missing distinct 
+     696      339        3 
+
+organization or person representing an organization (132, 0.190), person representing personal views (501,
+0.720), unable to tell (63, 0.091)
+-------------------------------------------------------------------------------------------------------------
+tweeterteases : Does the tweeter discourage or make fun of doing something unhealthy or extreme? 
+       n  missing distinct 
+     698      337        3 
+                                                                                                    
+Value      Neutral and/or unable to tell                            No                           Yes
+Frequency                             64                           631                             3
+Proportion                         0.092                         0.904                         0.004
+-------------------------------------------------------------------------------------------------------------
+numimgfem : Specify how many image(s)/video(s) include a person who appears to be...-Female-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     560      475        9    0.888     2.45    1.653 
+                                                                
+Value          0     1     2     3     4     5     6     8    11
+Frequency     29   208    57    37   218     6     3     1     1
+Proportion 0.052 0.371 0.102 0.066 0.389 0.011 0.005 0.002 0.002
+-------------------------------------------------------------------------------------------------------------
+numimgneither : Specify how many image(s)/video(s) show a person who appears:-Neither of these-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     546      489        7    0.809   0.8352    1.164 
+                                                    
+Value          0     1     2     3     4     5     8
+Frequency    308   118    58    31    29     1     1
+Proportion 0.564 0.216 0.106 0.057 0.053 0.002 0.002
+-------------------------------------------------------------------------------------------------------------
+numimgmuscular : Specify how many image(s)/video(s) show a person who appears:-Muscular-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     549      486        4    0.244   0.1002   0.1846 
+                                  
+Value          0     1     2     4
+Frequency    500    45     3     1
+Proportion 0.911 0.082 0.005 0.002
+-------------------------------------------------------------------------------------------------------------
+numimgskinny : Specify how many image(s)/video(s) show a person who appears:-Extremely skinny or skeletal-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     548      487        8    0.933    1.622    1.758 
+                                                          
+Value          0     1     2     3     4     5     6     8
+Frequency    192   127    57    50   117     2     2     1
+Proportion 0.350 0.232 0.104 0.091 0.214 0.004 0.004 0.002
+-------------------------------------------------------------------------------------------------------------
+numimgbutt : Specify how many image(s)/video(s) show each of the following parts of a body:-Butt-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     545      490        3    0.065  0.02385  0.04682 
+                            
+Value          0     1     2
+Frequency    533    11     1
+Proportion 0.978 0.020 0.002
+-------------------------------------------------------------------------------------------------------------
+numimgthigh : Specify how many image(s)/video(s) show each of the following parts of a body:-Thighs/legs-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     545      490        5     0.65   0.5046   0.7914 
+                                        
+Value          0     1     2     3     4
+Frequency    382    93    39    20    11
+Proportion 0.701 0.171 0.072 0.037 0.020
+-------------------------------------------------------------------------------------------------------------
+numimgarm : Specify how many image(s)/video(s) show each of the following parts of a body:-Arms-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     544      491        4    0.214  0.09559   0.1791 
+                                  
+Value          0     1     2     3
+Frequency    502    34     6     2
+Proportion 0.923 0.062 0.011 0.004
+-------------------------------------------------------------------------------------------------------------
+numimgneck : Specify how many image(s)/video(s) show each of the following parts of a body:-Neck/shoulders-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     545      490        5    0.445   0.2147   0.3638 
+                                        
+Value          0     1     2     3     4
+Frequency    447    83    12     2     1
+Proportion 0.820 0.152 0.022 0.004 0.002
+-------------------------------------------------------------------------------------------------------------
+numimgtorso : Specify how many image(s)/video(s) show each of the following parts of a body:-Torso (shoulders to hips)-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     548      487        6    0.708   0.5036   0.7401 
+                                              
+Value          0     1     2     3     4     5
+Frequency    358   128    43    15     3     1
+Proportion 0.653 0.234 0.078 0.027 0.005 0.002
+-------------------------------------------------------------------------------------------------------------
+numimgwaist : Specify how many image(s)/video(s) show each of the following parts of a body:-Waist/stomach and/or hips-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     546      489        5    0.647   0.4414   0.6834 
+                                        
+Value          0     1     2     3     4
+Frequency    383   108    39     9     7
+Proportion 0.701 0.198 0.071 0.016 0.013
+-------------------------------------------------------------------------------------------------------------
+numimgbody : Specify how many image(s)/video(s) show each of the following parts of a body:-Full body (shoulders to knees or more)-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     546      489        5    0.871   0.9322    1.154 
+                                        
+Value          0     1     2     3     4
+Frequency    256   156    74    35    25
+Proportion 0.469 0.286 0.136 0.064 0.046
+-------------------------------------------------------------------------------------------------------------
+numimghealthyfood : Specify how many image(s)/video(s) contain each of the following:-Healthy like fruits, vegetables, or grilled meat-Number of image(s)/video(s) 
+       n  missing distinct     Info      Sum     Mean      Gmd 
+      32     1003        2    0.724       19   0.5938    0.498 
+
+-------------------------------------------------------------------------------------------------------------
+imgfocuselse : The main focus of the image(s) is/are...-Something else 
+       n  missing distinct 
+     626      409        2 
+                                        
+Value      Something else             No
+Frequency              74            552
+Proportion          0.118          0.882
+-------------------------------------------------------------------------------------------------------------
+imgfocusbody : The main focus of the image(s) is/are...-A body or parts of a body 
+                        n                   missing                  distinct                     value 
+                      554                       481                         1 A body or parts of a body 
+                                    
+Value      A body or parts of a body
+Frequency                        554
+Proportion                         1
+-------------------------------------------------------------------------------------------------------------
+imgfocusfood : The main focus of the image(s) is/are...-Food 
+       n  missing distinct    value 
+      32     1003        1     Food 
+               
+Value      Food
+Frequency    32
+Proportion    1
+-------------------------------------------------------------------------------------------------------------
+webtopicelse : The main topic of the web page is...-Something else 
+       n  missing distinct 
+     141      894        2 
+                                        
+Value      Something else             No
+Frequency              18            123
+Proportion          0.128          0.872
+-------------------------------------------------------------------------------------------------------------
+webtopicpa : The main topic of the web page is...-Physical activity 
+       n  missing distinct 
+     141      894        2 
+                                              
+Value      Physical activity                No
+Frequency                  8               133
+Proportion             0.057             0.943
+-------------------------------------------------------------------------------------------------------------
+webtopichealtyeat : The main topic of the web page is...-Healthy eating 
+       n  missing distinct 
+     141      894        2 
+                                        
+Value      Healthy eating             No
+Frequency               4            137
+Proportion          0.028          0.972
+-------------------------------------------------------------------------------------------------------------
+webtopicdiet : The main topic of the web page is...-Dieting 
+       n  missing distinct 
+     141      894        2 
+                          
+Value      Dieting      No
+Frequency      115      26
+Proportion   0.816   0.184
+-------------------------------------------------------------------------------------------------------------
+webbroken : The tweet shows or links to...(check all that apply)-Web page link does not work 
+                          n                     missing                    distinct 
+                          8                        1027                           1 
+                      value 
+Web page link does not work 
+                                      
+Value      Web page link does not work
+Frequency                            8
+Proportion                           1
+-------------------------------------------------------------------------------------------------------------
+web : The tweet shows or links to...(check all that apply)-A web page 
+       n  missing distinct 
+     630      405        2 
+                                
+Value      A web page         No
+Frequency         141        489
+Proportion      0.224      0.776
+-------------------------------------------------------------------------------------------------------------
+imagevid : The tweet shows or links to...(check all that apply)-Image(s) or video(s) 
+       n  missing distinct 
+     692      343        2 
+                                                    
+Value      Image(s) or video(s)                   No
+Frequency                   625                   67
+Proportion                0.903                0.097
+-------------------------------------------------------------------------------------------------------------
+medtype : What type of medication or supplement?  
+       n  missing distinct 
+       7     1028        2 
+                                                                  
+Value      Prescription or over the counter weight loss medication
+Frequency                                           1             
+Proportion                                          0.143         
+                                                                  
+Value              Vitamin or dietary supplement (e.g., probiotic)
+Frequency                                           6             
+Proportion                                          0.857         
+-------------------------------------------------------------------------------------------------------------
+hashtagonly : Tweet text is only hashtags 
+       n  missing distinct 
+     696      339        2 
+                      
+Value         No   Yes
+Frequency    534   162
+Proportion 0.767 0.233
+-------------------------------------------------------------------------------------------------------------
+english : The tweet is in English 
+       n  missing distinct 
+    1035        0        3 
+                                                                                                      
+Value                                                 No Tweet is not working / can't access the tweet
+Frequency                                            67                                           315 
+Proportion                                         0.065                                         0.304
+                                                        
+Value                                                Yes
+Frequency                                           653 
+Proportion                                         0.631
+-------------------------------------------------------------------------------------------------------------
+relevant : The tweet is related to at least one of these: body image, fitness, food, dieting, eating disorders 
+       n  missing distinct 
+    1035        0        3 
+                                                       
+Value                  No Unable to tell            Yes
+Frequency              15            324            696
+Proportion          0.014          0.313          0.672
+-------------------------------------------------------------------------------------------------------------
+promotional : Is the Tweet an ad or a fitness/diet tip that appears promotional (promoting a product/organizati... 
+       n  missing distinct 
+     696      339        2 
+                      
+Value         No   Yes
+Frequency    531   165
+Proportion 0.763 0.237
+-------------------------------------------------------------------------------------------------------------
+mentionmeds : The text of the tweet, including hashtags, mentions.... (check all that apply) -Taking medications, vitamins, or supplements 
+       n  missing distinct 
+     629      406        2 
+                                                                                                    
+Value      Taking medications, vitamins, or supplements                                           No
+Frequency                                             7                                          622
+Proportion                                        0.011                                        0.989
+-------------------------------------------------------------------------------------------------------------
+mentioneatless : The text of the tweet, including hashtags, mentions.... (check all that apply) -Eating less food/fewer calories 
+       n  missing distinct 
+     629      406        2 
+                                                                          
+Value      Eating less food/fewer calories                              No
+Frequency                               51                             578
+Proportion                           0.081                           0.919
+-------------------------------------------------------------------------------------------------------------
+mentioneathealthy : The text of the tweet, including hashtags, mentions.... (check all that apply) -Eating healthier food 
+       n  missing distinct 
+     629      406        2 
+                                                      
+Value      Eating healthier food                    No
+Frequency                     25                   604
+Proportion                  0.04                  0.96
+-------------------------------------------------------------------------------------------------------------
+mentionexercise : The text of the tweet, including hashtags, mentions.... (check all that apply) -Exercising harder/more often 
+       n  missing distinct 
+     637      398        2 
+                                                                    
+Value      Exercising harder/more often                           No
+Frequency                           244                          393
+Proportion                        0.383                        0.617
+-------------------------------------------------------------------------------------------------------------
+mentionstrength : The text of the tweet, including hashtags, mentions.... (check all that apply) -Gaining strength and/or muscle mass/definition 
+       n  missing distinct 
+     631      404        2 
+                                                                                                        
+Value      Gaining strength and/or muscle mass/definition                                             No
+Frequency                                            43                                            588  
+Proportion                                          0.068                                          0.932
+-------------------------------------------------------------------------------------------------------------
+mentionloseweight : The text of the tweet, including hashtags, mentions.... (check all that apply) -Losing weight or wanting to be thinner 
+       n  missing distinct 
+     690      345        2 
+                                                                                        
+Value      Losing weight or wanting to be thinner                                     No
+Frequency                                     564                                    126
+Proportion                                  0.817                                  0.183
+-------------------------------------------------------------------------------------------------------------
+mentionbinge : The text of the tweet, including hashtags, mentions.... (check all that apply) -Binge eating or over eating 
+       n  missing distinct 
+     629      406        2 
+                                                                  
+Value      Binge eating or over eating                          No
+Frequency                           10                         619
+Proportion                       0.016                       0.984
+-------------------------------------------------------------------------------------------------------------
+mentionvomit : The text of the tweet, including hashtags, mentions.... (check all that apply) -Vomiting or fasting 
+       n  missing distinct 
+     629      406        2 
+                                                  
+Value      Vomiting or fasting                  No
+Frequency                   32                 597
+Proportion               0.051               0.949
+-------------------------------------------------------------------------------------------------------------
+mentionwantbody : The text of the tweet, including hashtags, mentions.... (check all that apply) -Wanting a body feature to look a specific way (must identify a specific body part, such as wanting smaller thighs, etc) 
+       n  missing distinct 
+     634      401        2 
+                                                                                                                                  
+Value      Wanting a body feature to look a specific way (must identify a specific body part, such as wanting smaller thighs, etc)
+Frequency                                           157                                                                           
+Proportion                                          0.248                                                                         
+                                                                                                                                  
+Value                                                                                                                           No
+Frequency                                           477                                                                           
+Proportion                                          0.752                                                                         
+-------------------------------------------------------------------------------------------------------------
+mentionnone : The text of the tweet, including hashtags, mentions.... (check all that apply) -None of these 
+       n  missing distinct 
+     629      406        2 
+                                      
+Value      None of these            No
+Frequency              1           628
+Proportion         0.002         0.998
+-------------------------------------------------------------------------------------------------------------
+mentiondisorder : The text of the tweet, including hashtags, mentions.... (check all that apply) -Specifically mentions an eating disorder (e.g., anorexia, bulimia, BED, ana, mia, etc.) 
+       n  missing distinct 
+     684      351        2 
+                                                                                                  
+Value      Specifically mentions an eating disorder (e.g., anorexia, bulimia, BED, ana, mia, etc.)
+Frequency                                            98                                           
+Proportion                                          0.143                                         
+                                                                                                  
+Value                                                                                           No
+Frequency                                           586                                           
+Proportion                                          0.857                                         
+-------------------------------------------------------------------------------------------------------------
+noimage : The tweet shows or links to...(check all that apply)-Not applicable (does not show or link to image or web page) 
+                                                          n 
+                                                         21 
+                                                    missing 
+                                                       1014 
+                                                   distinct 
+                                                          1 
+                                                      value 
+Not applicable (does not show or link to image or web page) 
+                                                                      
+Value      Not applicable (does not show or link to image or web page)
+Frequency                                           21                
+Proportion                                          1                 
+-------------------------------------------------------------------------------------------------------------
+numimgcandy : Specify how many image(s)/video(s) contain each of the following:-Unhealthy like candy, chips, fried food-Number of image(s)/video(s) 
+       n  missing distinct     Info      Sum     Mean      Gmd 
+      32     1003        2    0.176        2   0.0625    0.121 
+
+-------------------------------------------------------------------------------------------------------------
+numimgcombo : Specify how many image(s)/video(s) contain each of the following:-A combination of healthy and unhealthy-Number of image(s)/video(s) 
+       n  missing distinct     Info      Sum     Mean      Gmd 
+      32     1003        2    0.677       11   0.3438   0.4657 
+
+-------------------------------------------------------------------------------------------------------------
+numimgmale : Specify how many image(s)/video(s) include a person who appears to be...-Male-Number of image(s)/video(s) 
+       n  missing distinct     Info     Mean      Gmd 
+     544      491        3     0.08  0.03125  0.06106 
+                            
+Value          0     1     2
+Frequency    529    13     2
+Proportion 0.972 0.024 0.004
+-------------------------------------------------------------------------------------------------------------
+numimgcanttell : Specify how many image(s)/video(s) include a person who appears to be...-Can't tell-Number of image(s)/video(s) 
+       n  missing distinct     Info      Sum     Mean      Gmd 
+     545      490        2    0.005        1 0.001835  0.00367 
+
+-------------------------------------------------------------------------------------------------------------
+name1 : tweeter Twitter username 
+       n  missing distinct 
+    1035        0      562 
+
+lowest : 1   2   3   4   5  , highest: 563 564 565 566 567
+-------------------------------------------------------------------------------------------------------------
+RT : how many times tweet was retweeted as of march 2017 
+       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90 
+     692      343       83    0.966     25.1    37.46     0.00     0.00     0.00     7.00    30.00    61.00 
+     .95 
+   78.35 
+
+lowest :    0    1    2    3    4, highest:  132  138  279  282 2231
+-------------------------------------------------------------------------------------------------------------
+likes : how many times tweet was liked by March 2017 
+       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90 
+     692      343       98    0.987     33.9    51.68        0        0        1        9       34       74 
+     .95 
+     105 
+
+lowest :    0    1    2    3    4, highest:  315  322  346  368 4196
+-------------------------------------------------------------------------------------------------------------
+replies : how many replies to the tweet by March 2017 
+       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90 
+     692      343       11    0.363   0.2977   0.5528        0        0        0        0        0        1 
+     .95 
+       1 
+                                                                            
+Value          0     1     2     3     4     5    10    16    19    21    22
+Frequency    595    74    13     3     1     1     1     1     1     1     1
+Proportion 0.860 0.107 0.019 0.004 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+-------------------------------------------------------------------------------------------------------------
+Followed : number tweeter followed when tweet was sent 
+       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90 
+     902      133      383        1    688.7    937.6    10.00    37.00    93.25   222.50   708.00  1645.00 
+     .95 
+ 2594.35 
+                                                                                              
+Value          0   500  1000  1500  2000  2500  3000  4000  4500  5000  7500  8500 19500 46500
+Frequency    473   217    60    68    20    41     3     6     4     5     1     2     1     1
+Proportion 0.524 0.241 0.067 0.075 0.022 0.045 0.003 0.007 0.004 0.006 0.001 0.002 0.001 0.001
+-------------------------------------------------------------------------------------------------------------
+Followers : number following tweeter when tweet was sent 
+       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90 
+     902      133      391        1     2105     3534     16.0     30.0    113.0    392.5   1222.0   2725.0 
+     .95 
+  4147.0 
+                                             
+Value           0  10000  20000  60000 970000
+Frequency     881     18      1      1      1
+Proportion  0.977  0.020  0.001  0.001  0.001
+-------------------------------------------------------------------------------------------------------------
+Tweets : number of tweets when tweet was sent 
+        n   missing  distinct      Info      Mean       Gmd       .05       .10       .25       .50 
+      902       133       472         1     53985     87137     62.15    152.00    627.75   2593.00 
+      .75       .90       .95 
+ 21332.50 275628.00 334949.00 
+
+lowest :      5      8      9     10     12, highest: 334949 339281 346409 374715 377132
+-------------------------------------------------------------------------------------------------------------
+Favorites : number of favorites when tweet was sent 
+       n  missing distinct     Info     Mean      Gmd      .05      .10      .25      .50      .75      .90 
+     902      133      386    0.995     2352     3959        0        0        8      176     1390     5992 
+     .95 
+   13522 
+
+lowest :     0     1     2     3     4, highest: 44027 46219 71363 82674 93592
+-------------------------------------------------------------------------------------------------------------
+thinspo : tweet with thinspo hashtag 
+       n  missing distinct     Info      Sum     Mean      Gmd 
+    1035        0        2    0.665      692   0.6686   0.4436 
+
+-------------------------------------------------------------------------------------------------------------
+fitspo : tweet with fitspo hashtag 
+       n  missing distinct     Info      Sum     Mean      Gmd 
+    1035        0        2    0.665      343   0.3314   0.4436 
+
+-------------------------------------------------------------------------------------------------------------
+thinfit : thinspo or fitspo tweet 
+       n  missing distinct 
+    1035        0        2 
+                          
+Value       fitspo thinspo
+Frequency      343     692
+Proportion   0.331   0.669
+-------------------------------------------------------------------------------------------------------------
+binumimagesboth : men and women image(s) 
+       n  missing distinct 
+     545      490        2 
+                      
+Value         No   Yes
+Frequency    538     7
+Proportion 0.987 0.013
+-------------------------------------------------------------------------------------------------------------
+binumimgfem : women image(s) 
+       n  missing distinct 
+     560      475        2 
+                      
+Value         No   Yes
+Frequency     29   531
+Proportion 0.052 0.948
+-------------------------------------------------------------------------------------------------------------
+binumimgarm : arm image(s) 
+       n  missing distinct 
+     544      491        2 
+                      
+Value         No   Yes
+Frequency    502    42
+Proportion 0.923 0.077
+-------------------------------------------------------------------------------------------------------------
+binumimgneither : neither skinny nor muscular image(s) 
+       n  missing distinct 
+     546      489        2 
+                      
+Value         No   Yes
+Frequency    308   238
+Proportion 0.564 0.436
+-------------------------------------------------------------------------------------------------------------
+binumimgmuscular : muscular person image(s) 
+       n  missing distinct 
+     549      486        2 
+                      
+Value         No   Yes
+Frequency    500    49
+Proportion 0.911 0.089
+-------------------------------------------------------------------------------------------------------------
+binumimgskinny : skinny person image(s) 
+       n  missing distinct 
+     548      487        2 
+                    
+Value        No  Yes
+Frequency   192  356
+Proportion 0.35 0.65
+-------------------------------------------------------------------------------------------------------------
+binumimgbutt : image(s) of butt 
+       n  missing distinct 
+     545      490        2 
+                      
+Value         No   Yes
+Frequency    533    12
+Proportion 0.978 0.022
+-------------------------------------------------------------------------------------------------------------
+binumimgthigh : image(s) of thigh 
+       n  missing distinct 
+     545      490        2 
+                      
+Value         No   Yes
+Frequency    382   163
+Proportion 0.701 0.299
+-------------------------------------------------------------------------------------------------------------
+binumimgneck : image(s) of neck 
+       n  missing distinct 
+     545      490        2 
+                    
+Value        No  Yes
+Frequency   447   98
+Proportion 0.82 0.18
+-------------------------------------------------------------------------------------------------------------
+binumimgtorso : image(s) of torso 
+       n  missing distinct 
+     548      487        2 
+                      
+Value         No   Yes
+Frequency    358   190
+Proportion 0.653 0.347
+-------------------------------------------------------------------------------------------------------------
+binumimgwaist : image(s) of waist 
+       n  missing distinct 
+     546      489        2 
+                      
+Value         No   Yes
+Frequency    383   163
+Proportion 0.701 0.299
+-------------------------------------------------------------------------------------------------------------
+binumimgbody : image(s) of full body 
+       n  missing distinct 
+     546      489        2 
+                      
+Value         No   Yes
+Frequency    256   290
+Proportion 0.469 0.531
+-------------------------------------------------------------------------------------------------------------
+binumimghealthyfood : healthy food image(s) 
+       n  missing distinct 
+      32     1003        2 
+                      
+Value         No   Yes
+Frequency     13    19
+Proportion 0.406 0.594
+-------------------------------------------------------------------------------------------------------------
+binumimgcandy : unhealthy food image(s) 
+       n  missing distinct 
+      32     1003        2 
+                      
+Value         No   Yes
+Frequency     30     2
+Proportion 0.938 0.062
+-------------------------------------------------------------------------------------------------------------
+binumimgcombo : healthy & unhealthy food image(s) 
+       n  missing distinct 
+      32     1003        2 
+                      
+Value         No   Yes
+Frequency     21    11
+Proportion 0.656 0.344
+-------------------------------------------------------------------------------------------------------------
+binumimgmale : male image(s) 
+       n  missing distinct 
+     544      491        2 
+                      
+Value         No   Yes
+Frequency    529    15
+Proportion 0.972 0.028
+-------------------------------------------------------------------------------------------------------------
+binumimgcanttell : can't tell male female 
+       n  missing distinct 
+     545      490        2 
+                      
+Value         No   Yes
+Frequency    544     1
+Proportion 0.998 0.002
+-------------------------------------------------------------------------------------------------------------
+
+Variables with all observations missing:
+
+[1] webtopicmeds
