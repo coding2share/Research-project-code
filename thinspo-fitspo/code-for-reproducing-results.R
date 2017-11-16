@@ -9,7 +9,7 @@
 
 #bring in clean data from CSV (need install data.table library)
 library(data.table)
-twit2 <- fread("https://raw.githubusercontent.com/coding2share/thinspo-fitspo/master/clean-twit.csv")
+twit2 <- fread("https://raw.githubusercontent.com/coding2share/Research-project-code/master/thinspo-fitspo/clean-twit.csv")
 
 #fix variable types
 twit2$imgfocustext <- as.character(twit2$imgfocustext)
