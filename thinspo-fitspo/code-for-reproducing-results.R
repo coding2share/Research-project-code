@@ -151,8 +151,9 @@ colnames(final) <- c("thinspo","fitspo")
 final <- data.frame(final)
 final <- final[which(final$thinspo!="thinspo" & final$thinspo!=692), ]
 final$topic = rownames(final)
-final$pthinspo <- as.numeric(final$thinspo)/sum(as.numeric(final$thinspo))
-final$pfitspo <- as.numeric(final$fitspo)/sum(as.numeric(final$fitspo))
+#458 thinspo tweets, 238 fitspo
+final$pthinspo <- as.numeric(paste(final$thinspo))/458
+final$pfitspo <- as.numeric(paste(final$fitspo))/238
 fitvars <- c('fitspo','pfitspo','topic')
 thinvars <- c('thinspo','pthinspo','topic')
 fitspodata <- final[fitvars]
