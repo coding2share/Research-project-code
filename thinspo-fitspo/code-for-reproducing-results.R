@@ -2,10 +2,10 @@
 #examines content of tweets with hashtags thinspo and fitspo
 #author Jenine K. Harris contact harrisj@wustl.edu
 #data clean-twit.csv saved at: 
-#https://github.com/coding2share/thinspo-fitspo/blob/master/clean-twit.csv
+#https://github.com/coding2share/Research-project-code/blob/master/thinspo-fitspo/clean-twit.csv
 #variable dictionary codebook-twit.txt saved at:
-#https://github.com/coding2share/thinspo-fitspo/blob/master/codebook-twit.txt  
-#last edited 6/2/2017
+#https://github.com/coding2share/Research-project-code/blob/master/thinspo-fitspo/codebook-twit.txt
+#last edited 11/16/2017
 
 #bring in clean data from CSV (need install data.table library)
 library(data.table)
